@@ -29,6 +29,88 @@ In addition, [Laracasts](https://laracasts.com) contains thousands of video tuto
 
 You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
 
+## Setup Instructions
+
+Follow these steps to set up the project on your local machine:
+
+### Prerequisites
+
+Before you begin, ensure you have the following installed:
+- **PHP** 8.2 or higher
+- **Composer** ([Download here](https://getcomposer.org/))
+- **Node.js** and **npm** ([Download here](https://nodejs.org/))
+- **Git** ([Download here](https://git-scm.com/))
+
+### Installation Steps
+
+1. **Clone the repository** (or extract the project files):
+   ```bash
+   git clone <repository-url>
+   cd brew-cycle
+   ```
+
+2. **Install PHP dependencies**:
+   ```bash
+   composer install
+   ```
+
+3. **Install JavaScript dependencies**:
+   ```bash
+   npm install
+   ```
+
+4. **Copy the environment file**:
+   ```bash
+   cp .env.example .env
+   ```
+   Or on Windows:
+   ```bash
+   copy .env.example .env
+   ```
+
+5. **Generate application key**:
+   ```bash
+   php artisan key:generate
+   ```
+
+6. **Set up the database**:
+   Update the `.env` file with your database credentials, then run migrations:
+   ```bash
+   php artisan migrate
+   ```
+
+7. **Seed the database** (optional):
+   ```bash
+   php artisan db:seed
+   ```
+
+8. **Build frontend assets**:
+   ```bash
+   npm run build
+   ```
+   Or for development with watch mode:
+   ```bash
+   npm run dev
+   ```
+
+9. **Start the development server**:
+   ```bash
+   php artisan serve
+   ```
+   The application will be available at `http://localhost:8000`
+
+### Running Tests
+
+To run the test suite:
+```bash
+php artisan test
+```
+
+Or with PHPUnit directly:
+```bash
+./vendor/bin/phpunit
+```
+
 ## Agentic Development
 
 Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
