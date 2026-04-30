@@ -12,15 +12,16 @@
 </head>
 <body class="bg-white antialiased">
 
-    @include('components.navbar')
+    @include('navbar')
 
     <main>
-        @include('components.1hero')
+        @include('components.1hero2info')
         @include('components.3about')
         @include('components.4product')
         @include('components.5keunggulan')
-        @include('components.6invite')
-        @include('components.7partner')
+        @include('components.6partner')
+        @include('components.7invite')
+        @include('components.footer')
     </main>
 
     <footer class="p-4 bg-white md:p-8 lg:p-10 border-t">
