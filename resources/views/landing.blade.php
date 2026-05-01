@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brew Cycle - Landing Page</title>
+    
     <style>
         body { font-family: 'Poppins', sans-serif; }
     </style>
@@ -24,7 +25,7 @@
         @include('components.footer')
     </main>
 
-    <footer class="p-4 bg-white md:p-8 lg:p-10 border-t">
+    <footer class="p-4 bg-white md:p-8 lg:p-10 border-t">   
         <div class="mx-auto max-w-screen-xl text-center">
             <p class="text-gray-500">© 2026 Brew Cycle. All Rights Reserved.</p>
         </div>

@@ -3,8 +3,7 @@
 
         {{-- Kiri: Logo + Deskripsi --}}
         <div class="max-w-[474px] flex flex-col gap-5">
-            <img src="{{ asset('assets/brewcycle-logo.png') }}" alt="BrewCycle"
-                class="w-[95px] h-[82px] object-contain">
+            <h3 class="text-white text-4xl font-semibold font-['Poppins']">BrewCycle</h3>
             <p class="text-white text-lg font-normal font-['Poppins'] leading-relaxed">
                 Bersama kita mengubah limbah ampas kopi menjadi solusi energi
                 berkelanjutan untuk masa depan yang lebih hijau
