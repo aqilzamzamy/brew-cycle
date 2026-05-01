@@ -13,7 +13,7 @@
 </head>
 <body class="bg-white antialiased">
 
-    @include('navbar')
+    @include('layouts.navbar')
 
     <main>
         @include('components.1hero2info')

@@ -1,4 +1,4 @@
-<nav class="sticky top-0 z-[100] w-full bg-[#fdfaf2] border-b border-gray-100 shadow-sm">
+<nav class="sticky top-0 z-[100] w-full bg-[#FFFFFF] border-b border-gray-100 shadow-sm">
     <div class="max-w-[1440px] mx-auto px-6 md:px-[120px] flex items-center justify-between h-[86px]">
         
         <div class="flex-shrink-0">

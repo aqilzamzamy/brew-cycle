@@ -20,7 +20,7 @@
                        rounded-full hover:bg-opacity-90 transition-all duration-200">
                 Buy our Product
             </a>
-            <a href="#partnership"
+            <a href="{{ route('partner.index') }}"
                 class="px-8 py-3.5 border-2 border-[#f7fff4] text-white text-sm font-medium font-['Poppins']
                        rounded-full hover:bg-white hover:text-[#4c6444] transition-all duration-200">
                 Become our Partner
